@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psyc</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="sub-container">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="babout.html">ABOUT</a></li>
+                    <li><a href="career.html">Careers</a></li>
+                    <li><a href="partner.html">Partners</a></li>
+                    <li><a href="index.html">Products</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+
+    </div>
+<!---blog page-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="image/navigate.jpg">
+            <h2>NAVIGATING THE BALANCE</h2>
+           
+            <p>Introduction <br><br>
+
+                Karnataka, a state rich in biodiversity, is home to several wildlife sanctuaries and national parks, making it a crucial area for elephant conservation in India. However, the presence of these majestic creatures in human-dominated landscapes often leads to conflicts, posing significant challenges for both wildlife and local communities. This blog explores the current state of elephant conservation in Karnataka, the nature of human-wildlife conflict, and potential solutions for coexistence.
+                <br>
+                The Elephant’s Domain in Karnataka
+                <br>
+                Karnataka is known for its diverse range of habitats that support elephant populations. Key regions include:
+                <br><br>
+                Bandipur National Park: A part of the Nilgiri Biosphere Reserve, Bandipur is a significant elephant habitat and a critical area for conservation efforts.
+                Nagarhole National Park: Known for its rich flora and fauna, Nagarhole is another crucial site where elephants roam freely.
+                Kudremukh National Park: This park offers a unique habitat, combining lush forests with grasslands, essential for supporting large elephant herds.
+                <br>
+                Human-Wildlife Conflict: Causes and Consequences
+                <br><br>
+                As elephants venture beyond protected areas in search of food and water, conflicts with local communities arise. The main causes of human-wildlife conflict in Karnataka include:
+                <br><br>
+                Crop Raiding: Elephants often damage crops in agricultural fields, leading to economic losses for farmers.
+                Habitat Encroachment: Expansion of human settlements and agricultural activities encroach on elephant habitats, increasing the likelihood of conflict.
+                Infrastructure Development: Roads, railways, and other infrastructure can fragment habitats and create barriers for elephants. <br>
+                The consequences of these conflicts are severe for both elephants and humans. Elephants may be injured or killed in retaliatory attacks, while local communities face property damage and economic hardships.
+                <br><br>
+                Conservation Efforts and Solutions
+                <br><br>
+                Addressing human-wildlife conflict requires a multifaceted approach:
+                <br><br>
+                Community Engagement: Involving local communities in conservation efforts helps build trust and fosters collaborative solutions. Education programs can raise awareness about the importance of elephants and promote coexistence strategies.
+                <br><br>
+                Mitigation Measures: Implementing practical measures such as electric fences, early-warning systems, and crop protection techniques can reduce the frequency and impact of conflicts.
+                <br><br>
+                Habitat Restoration: Ensuring that elephant corridors and migration routes are protected and restored is crucial for reducing human-wildlife conflict. Conservation projects aimed at restoring degraded habitats can also benefit other wildlife species.
+                <br><br>
+                Government and NGO Initiatives: Support from government agencies and non-governmental organizations is vital for implementing and funding conservation programs. Collaborative efforts can lead to more effective and sustainable solutions.
+                <br><br>
+                Conclusion
+                <br><br>
+                Balancing the needs of both humans and elephants in Karnataka is a complex challenge but one that is essential for the preservation of this iconic species. By combining community involvement, innovative mitigation strategies, and strong conservation initiatives, it is possible to create a future where elephants and humans can coexist harmoniously. As we move forward, continued efforts and commitment will be key to ensuring that Karnataka remains a safe haven for elephants and other wildlife.
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea row="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">SUBMIT</button>
+
+            
+                    </form>
+                </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>drone</span>
+                <span>1</span>
+            </div>
+            <div>
+                <span>camera</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>We envision a world where humans and elephant live in hormony, with thriving ecosystems that support both wildlife and human prosperity.<br> By working together, we can create lasting solutions that benefit all life on earth.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    
+
+
+
+</section>
+
+<!--------javascript for toggle menu--------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

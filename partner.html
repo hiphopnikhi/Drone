@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partner With Us</title>
+  <link rel="stylesheet" href="partner.css">
+  <script src="https://kit.fontawesome.com/9063d47520.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <div class="page1-about">
+    <div class="sub-container">
+      <nav>
+          <a href="index.html"><img src="logo.png"></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+
+              <ul>
+                  <li><a href="home.html">HOME</a></li>
+                  <li><a href="babout.html">About</a></li>
+                  <li><a href="partner.html">Partners</a></li>
+                  <li><a href="career.html">Careers</a></li>
+                  <li><a href="index.html">Products</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+  </div>
+  <style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: absolute;
+      margin: auto;
+      margin-left: auto;
+      margin-top: 16px;
+      margin-right: 20px;
+      text-align: center;
+      overflow: hidden;
+      top: 30%;
+      right: 10%;
+
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      margin-right: 20px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 20px;
+      
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      top: 50%;
+      right: 10%;
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/10 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    /*.dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      margin-right: -60px;
+      background-color: #940808;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      top: 50%;
+      right: 10%;
+    } */
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 10</div>
+      <img src="dsu.1.jpg" style="width: 100%;">
+      <div class="text">DSU</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 10</div>
+      <img src="dsu.2.jpg" style="width:100%">
+      <div class="text">DSU</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 10</div>
+      <img src="3dsu.jpg" style="width:100%">
+      <div class="text">DSU</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 10</div>
+        <img src="4dsu.jpg" style="width:100%">
+        <div class="text">DSU</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 10</div>
+        <img src="5dsu.jpg" style="width:100%">
+        <div class="text">DSU</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 10</div>
+        <img src="zoo.1.jpeg" style="width:100%">
+        <div class="text">Zoo</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 10</div>
+        <img src="zoo.2.jpg" style="width:100%">
+        <div class="text">Zoo</div>
+      </div>
+     <!--- <div class="mySlides fade">
+        <div class="numbertext">8 / 10</div>
+        <img src="zoo.3.jpg" style="width:100%">
+        <div class="text">Zoo</div>
+      </div> -->
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 10</div>
+        <img src="zoo.4.jpeg" style="width:100%">
+        <div class="text">Zoo</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 10</div>
+        <img src="zoo.5.jpeg" style="width:100%">
+        <div class="text">Zoo</div>
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+   <!--<div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+    </div> -->
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+     
+     <h1>Our Institutional Partner</h1>
+     <img src="dsu.png" width="450" height="450">
+     
+      </div>
+     </div>
+     <h1>Our knowledge Partner</h1>
+     <img src="zoo.jpeg" width="400" height="380">
+     <div class="bannercard">
+       <img class="landing-image" src="partner.jpg">
+     <div class="bannertext">
+       <h4>Partner With Us</h4>
+       <h4>Lets CREATE IMPACT!</h4>
+     </div>
+     </div>
+ 
+   </div>
+   <div class="page2-partner">
+    <h1 >Why Partner With Us</h1>
+    <div class="row">
+      <div class="service">
+        <i class="fa-regular fa-lightbulb"></i>
+        <h2>Innovative Wildlife Solutions</h2>
+        <p>Darting drones provide a precise, non-invasive method for safer, stress-free elephant management, enhancing wildlife conservation efforts.</p>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-microchip"></i>
+        <h2>Conservation Impact</h2>
+        <p>Our technology enhances wildlife conservation by enabling safe, remote monitoring and management. It also offers valuable data collection and research opportunities, contributing to informed conservation strategies.</p>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-chart-line"></i>
+        <h2>Market Potential</h2>
+        <p>The global demand for humane wildlife management is rising, with potential applications extending to other large mammals like rhinos and bison, ensuring safer interactions and conservation efforts worldwide.</p>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-ranking-star"></i>
+        <h2>Technological Leadership</h2>
+        <p>
+          We are at the forefront of UAV technology in wildlife management, pioneering innovative solutions that ensure precision and safety in tranquilization efforts. </p>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-scale-balanced"></i>
+        <h2>Compliance with Regulations</h2>
+        <p>Our technology is fully compliant with wildlife protection laws and adheres to all drone regulations, ensuring ethical and legal operation in every deployment.</p>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-signal"></i>
+        <h2>Scalability</h2>
+        <p>Our scalable solution adapts to different regions and species, customizing drones for diverse wildlife management challenges, ensuring effective conservation and conflict mitigation across global environments and various animal types.</p>
+      </div>
+
+      <div class="service">
+        <i class="fa-solid fa-circle-check"></i>
+        <h2>Atmanirbhar Bharat</h2>
+        <p>Partnering with us supports the Make in India initiative, driving self-reliance in defense and conservation technology.</p>
+      </div>
+      <div class="service">
+        <i class="fa-solid fa-layer-group"></i>
+        <h2>Cross-Sector Applications</h2>
+        <p>Our technology has versatile applications beyond wildlife management, including disaster response for aerial surveillance and emergency assessment, and agricultural monitoring for crop health and precision farming.</p>
+      </div>
+
+      
+    </div>
+
+    
+  </div>
+  <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Get in touch</h2>
+          <hr>
+        </div>
+        <input type="hidden" name="access_key" value="1aecb6d2-bcb3-4cbf-b754-9caac12f287c">
+        <input type="text" name="name" placeholder="Enter Your Name" class="contact-inputs" required>
+        <input type="email" name="name" placeholder="Enter Your Email" class="contact-inputs" required>
+        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+
+        <button type="submit">Submit<i class="fa-solid fa-right-long"></i> </button>
+
+
+    </form>
+
+
+    <div class="contact-right">
+        <img src="best.jpeg" alt="">
+    </div>
+  </div>
+
+</body>
+</html>
+
